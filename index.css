@@ -1,0 +1,82 @@
+<style>
+.image-container {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+}
+
+#fullscreenimage {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.glow-effect {
+    background-color: white; /* White background behind each image */
+    padding: 5px; /* Space around the image */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.5); /* Blue glow shadow */
+}
+
+.glow-outline {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 
+        0 0 8px rgba(0, 123, 255, 0.6),   /* Slight glow */
+        0 0 15px rgba(0, 123, 255, 0.5),  /* Outer glow */
+        0 0 20px rgba(0, 123, 255, 0.4);  /* Wider, fainter glow */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #0f1824;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-left: 15px;
+}
+
+.footer-links a {
+    color: #93aed2;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+</style>
